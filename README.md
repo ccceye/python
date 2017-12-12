@@ -1,7 +1,15 @@
 # python
-python pip 
----
 
+python virtualenv pip 
+---
+# Virtualenv
+
+- install pyenv-virtualenv, pyenv
+
+- pyvenv, pyenv  
+
+
+---
 # pip
 https://pip.pypa.io/en/stable/installing/
 
