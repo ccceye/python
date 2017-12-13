@@ -12,6 +12,7 @@ Python的包（或模块）的下载保存非常独特；有时候可能会带�
 
 不同系统，Python模块的安装位置也不一样。例如，大多数系统模块安装在 sys.prefix 环境变量指定的目录中，以Mac OS X为例：
 
+[!python-pyvenv-1.png](./python-pyvenv-1.png)
 
 
 ---
