@@ -42,7 +42,7 @@ Python虚拟环境可以为项目创建相互独立的开发环境，也就是�
 
 如果你使用Python 3，它默认安装了pyvenv。
 
-virtualenv和pyvenv的使用方法类似。由于pyvenv是较新的工具，本帖以它为例。
+virtualenv和pyvenv的使用方法类似。由于pyvenv是较新的工具，本文以它为例。
 
 **创建一个存放虚拟环境的目录：**
 ```
@@ -50,20 +50,6 @@ $ mkdir python-env
 $ cd python-env
 ```
 **创建一个虚拟环境：**
-
-`$ sudo pip install virtualenv`
-
-如果你使用Python 3，它默认安装了pyvenv。
-
-virtualenv和pyvenv的使用方法类似。由于pyvenv是较新的工具，本文以它为例。
-
-**创建一个存放虚拟环境的目录：**
-
-```
-$ mkdir python-env
-$ cd python-env
-```
-创建一个虚拟环境：
 
 `$ pyvenv env_A`
 
@@ -89,13 +75,13 @@ $ cd python-env
 ```
 使用创建的虚拟环境env_A：
 
-$ source env/bin/activate
+`$ source env/bin/activate`
 
-提示符中包含：
+提示符中包含env_A：
 
 `(env_A) $`
 
-现在你通过pip安装的包都会安装这个虚拟环境中；导入（import）模块时也只能使用这个虚拟环境中的模块。
+**现在你通过pip安装的包都会安装这个虚拟环境中；导入（import）模块时也只能使用这个虚拟环境中的模块。**
 
 如果要退出env_A虚拟环境，执行：
 
