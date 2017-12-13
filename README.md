@@ -1,6 +1,5 @@
 # Python
 
-<font color=#FF0000>python virtualenv pip</font>
 
 
 ---
