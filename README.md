@@ -2,11 +2,16 @@
 
 python virtualenv pip 
 ---
-# Virtualenv
 
-- install pyenv-virtualenv, pyenv
 
-- pyvenv, pyenv  
+# Python虚拟环境（pyvenv、virtualenv)
+
+**我们为什么需要使用虚拟环境？**
+
+Python的包（或模块）的下载保存非常独特；有时候可能会带来问题。
+
+不同系统，Python模块的安装位置也不一样。例如，大多数系统模块安装在 sys.prefix 环境变量指定的目录中，以Mac OS X为例：
+
 
 
 ---
