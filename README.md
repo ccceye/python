@@ -1,10 +1,10 @@
-# python
+# Python
 
-python virtualenv pip 
+<font color=red>python virtualenv pip</font>
 
 
 ---
-# <font color=red>Python虚拟环境（pyvenv、virtualenv)</font>
+# Python虚拟环境（pyvenv、virtualenv)
 
 ### 我们为什么需要使用虚拟环境？
 
@@ -115,7 +115,7 @@ $ source env/bin/activate
 
 
 ---
-# pip
+# Pip
 https://pip.pypa.io/en/stable/installing/
 
 ### Installation
